@@ -1,0 +1,25 @@
+{
+  "name": "crawleex",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "This is an example of a Crawlee project.",
+  "dependencies": {
+    "crawlee": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "mongoose": "^8.5.0",
+    "puppeteer": "*",
+    "winston": "^3.13.1"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node src/test.js",
+    "script": "node src/ecmascript.js"
+  },
+  "author": "It's not you it's me",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10"
+  }
+}
